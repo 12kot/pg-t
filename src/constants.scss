@@ -1,0 +1,106 @@
+:root {
+  //COLORS
+  --bg-color: #fefefe;
+  --second-bg-color: #eceff4;
+  --second-bg-color-hover: #ebeff6;
+  --negative-color: #fefefe;
+
+  --font-color: #090909;
+  --second-font-color: #667685;
+  --main-color: #246aed;
+  --second-main-color: #7aa7f9;
+  --green: #16c784;
+  --red: #ea3943;
+  
+  --box-shadow: 0px 4px 24px rgba(88, 102, 126, 0.3), 0px 1px 8px rgba(88, 102, 126, 0.3);
+
+  --error-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(238, 241, 244, 1) 0%,
+    rgba(238, 241, 244, 1) 0%,
+    rgba(234, 57, 67, 0.2) 100%
+  );
+
+  --error-gradient-hover: linear-gradient(
+    180deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(238, 241, 244, 1) 0%,
+    rgba(238, 241, 244, 1) 0%,
+    rgba(234, 57, 67, 0.4) 100%
+  );
+
+  --green-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(238, 241, 244, 1) 0%,
+    rgba(238, 241, 244, 1) 0%,
+    rgba(22, 199, 132, 0.2) 100%
+  );
+
+  --green-gradient-hover: linear-gradient(
+    180deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(238, 241, 244, 1) 0%,
+    rgba(238, 241, 244, 1) 0%,
+    rgba(22, 199, 132, 0.4) 100%
+  );
+
+  --blue-gradient: linear-gradient(
+    180deg,
+    rgba(255, 255, 0, 1) 0%,
+    rgba(238, 241, 244, 1) 0%,
+    rgba(238, 241, 244, 1) 0%,
+    rgba(0, 91, 255, 0.3) 100%
+  );
+
+  --scroll-color: #005bff;
+
+  --border-color: #eaedf0;
+  --border-focus-color: #e8ebef;
+
+  --second-border-color: #e8ebef;
+
+  --focus-color: #eff1f4;
+
+  --skeleton: linear-gradient(-45deg, #e2e4e8, var(--second-bg-color), #e2e4e8, var(--second-bg-color));
+
+  //DEFAULT
+  --transition: 0.3s;
+  --border-radius: 5px;
+
+  --item-padding-top: 10px;
+  --item-padding-left: 12px;
+
+  --footer-padding-top: 20px;
+
+  --page-padding-top: calc(var(--header-height) + 20px);
+  --page-padding-left: 20px;
+  --gap: 8px;
+
+  --page-gap: 30px;
+  --page-items-padding: 15px;
+
+  --table-height: 75px;
+
+  //FONT
+  --font-size: 15px;
+  --h1-size: 20px;
+  --h2-size: 18px;
+  --h3-size: 17px;
+  --h4-size: 16px;
+
+  //SCROLLBAR
+  --scrollbar-width: 5px;
+  --scrollbar-height: 5px;
+  --scrollbar-radius: 10px;
+
+  --buttonScroll-height: 30px;
+  --buttonScroll-width: 30px;
+
+  //HEADER
+  --header-height: 45px;
+
+  //ICONS
+  --svg-width: 24px;
+}

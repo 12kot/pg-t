@@ -1,0 +1,28 @@
+.input {
+  border: 2px solid var(--border-color);
+  height: 40px;
+
+  width: fit-content;
+  padding: var(--item-padding-top) var(--item-padding-left);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+
+  &:active,
+  &:focus,
+  &:hover {
+    border-color: var(--main-color);
+  }
+
+  &:disabled {
+    background-color: var(--second-bg-color);
+
+    &:hover {
+      border-color: var(--border-focus-color);
+    }
+  }
+}
+
+.error {
+  background-color: rgba(234, 57, 67, 0.1);
+  border-color: rgba(234, 57, 67, 0.4);
+}

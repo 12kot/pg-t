@@ -1,0 +1,104 @@
+@import "./constants.scss";
+
+* {
+  width: 300px;
+  height: 200px;
+
+  outline-color: var(--main-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+  scroll-behavior: smooth;
+  scroll-margin-top: calc(var(--header-height) + 15px);
+
+  font-family: "Montserrat", sans-serif;
+}
+
+div {
+  display: block;
+}
+
+body {
+  width: 100%;
+  min-width: 280px;
+  height: fit-content;
+  margin: 0;
+
+  font-size: var(--font-size);
+  color: var(--font-color);
+
+  background-color: var(--bg-color);
+}
+
+a,
+button,
+input {
+  border: 0;
+  font-size: var(--font-size);
+  background-color: initial;
+}
+
+button,
+a {
+  cursor: pointer;
+}
+
+a,
+a:active,
+a:hover,
+a:focus,
+a:visited {
+  color: var(--font-color);
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h1 {
+  font-size: var(--h1-size);
+  //font-size: 12px;
+}
+
+h2 {
+  font-size: var(--h2-size);
+}
+
+h3 {
+  font-size: var(--h3-size);
+}
+
+h4 {
+  font-size: var(--h4-size);
+}
+
+svg {
+  width: var(--svg-width);
+}
+
+textarea {
+  border: 2px solid var(--border-color);
+
+  width: fit-content;
+  padding: var(--item-padding-top) var(--item-padding-left);
+  border-radius: var(--border-radius);
+  transition: var(--transition);
+
+  &:active,
+  &:focus,
+  &:hover {
+    border-color: var(--main-color);
+  }
+
+  &:disabled {
+    background-color: var(--second-bg-color);
+
+    &:hover {
+      border-color: var(--border-focus-color);
+    }
+  }
+}
